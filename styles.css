@@ -1,0 +1,88 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.container {
+  border: 3px solid black;
+  border-radius: 20px;
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+h1,
+h4 {
+  text-align: center;
+}
+h4 {
+  color: grey;
+}
+.line {
+  position: relative;
+  width: 2px;
+  height: 450px;
+  background-color: black;
+  margin: 50px 40%;
+}
+.dots {
+  position: absolute;
+  border-radius: 50%;
+  left: 40%;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  transform: translate(-50%, -50%);
+}
+.dots:nth-child(1) {
+  top: 12%;
+}
+.dots:nth-child(2) {
+  top: 24%;
+}
+.dots:nth-child(3) {
+  top: 36%;
+}
+.dots:nth-child(4) {
+  top: 48%;
+}
+.dots:nth-child(5) {
+  top: 60%;
+}
+.dots:nth-child(6) {
+  top: 72%;
+}
+.dots:nth-child(7) {
+  top: 84%;
+}
+.dates {
+  height: 450px;
+  position: absolute;
+  margin: 70px 0;
+}
+.date {
+  margin-left: 120px;
+  padding-bottom: 29px;
+  text-align: right;
+  color: grey;
+}
+.actions {
+  height: 450px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 300px;
+}
+.action {
+  padding-bottom: 29px;
+  text-align: left;
+}
+.btn {
+  position: relative;
+  top: -40px;
+
+  margin-left: 255px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
